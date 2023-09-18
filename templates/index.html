@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAIF_ALI</title>
+</head>
+<body>
+    <form action="{{url_for('predict')}}" method="post">
+        <input type="text" name="Promotion_Budget" placeholder="Please Enter Your Budget : "></input>
+        <button type="submit">CALCULATE</button>
+    </form>
+    <h3><br>{{my_text}}</h3>
+</body>
+</html>
